@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+    
+    margin: 0;
+    text-align: center;
+}
+
+.title {
+    color:#61dbfb;
+    font-size: 3rem;
+}
+
+img {
+    width: 100px;
+}
+
+hr {
+    margin: 0 0 10px 0;
+    border-top:1px dotted #666666;
+    border-style: dotted;
+}
+
+p {
+    width: 60%;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+/* navbar */
+.navbar {
+   
+    padding: 0;
+   
+}
+
+.navbar a {
+
+    
+
+     text-align: center;
+
+
+    
+}
+
+
+
+
+
+/* AboutMe */
+
+#profilePic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    margin-top:30px;
+}
+
+#aboutMe {
+    padding-top: 100px;
+}
+
+.aboutImg {
+    width: 60%;
+    margin-top: 50px;
+    
+}
+
+/* skills-container */
+
+.skills-container {
+    margin: auto;
+    background-color: #abeeff;
+    margin: 0;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Projects */
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+.card {
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    padding-right: calc(var(--bs-gutter-x) * 0);
+    padding-left: calc(var(--bs-gutter-x) * 0);
+    margin-right: 50px;
+    margin-left: 50px;
+    border: 0px;
+    width: 30%;
+
+
+}
+
+.row>* {
+    padding-right: calc(var(--bs-gutter-x) * 0);
+    padding-left: calc(var(--bs-gutter-x) * 0);
+    padding: 0;
+    
+}
+
+.projectDiv {
+    padding: 50 50 50 50
+}
+
+
+
+.poster-container {
+
+	
+	
+	
+
+    padding: 0;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.marGin {
+    margin-top: 10px;
+}
+
+  .container1 {
+    
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  .container1:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container1:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #61dbfb;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
+  /* Contact Me */
+
+.btn1 {
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+/* footer */
+
+.footer-container {
+    margin: auto;
+    padding: 50px;
+    background-color: #abeeff;
+}
+
